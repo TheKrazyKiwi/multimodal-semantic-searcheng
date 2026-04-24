@@ -1,0 +1,38 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector Indices & Metadata
+*.faiss
+*.pkl
+description_map.json
+description_map.pkl
+
+# Large Binaries & Checkpoints
+checkpoints/
+ffmpeg
+*.pt
+*.bin
+
+# Data & Media
+# Ignore the entire data directory to keep the repository lightweight
+data/
+*.mp4
+*.wav
+*.jpg
+*.jpeg
+*.png
+
+# Logs & Output
+*.log
+nohup.out
+
+# OS Specific
+.DS_Store
+Thumbs.db
